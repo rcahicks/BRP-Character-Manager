@@ -24,7 +24,18 @@ module.exports = {
     extend: {
       colors: {
         "of-black": "#1A180C",
-      "of-white": "#FAFAFA",
+        "of-white": "#FAFAFA",
+        // Original: (gradient)
+        // #7e68bd
+        // #5fa5c5
+
+        // Step 1:
+        // #917ace
+        // #74b7d6
+
+        // Step 2:
+        // #9f8adb
+        // #87c8e6
       },
       backgroundImage: {
         "gm-tools": "url('/src/images/gm-tools-bg.png')",
