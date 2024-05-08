@@ -3,14 +3,14 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     screens: {
-      'sm': '640px',
-      // => @media (min-width: 640px) { ... }
+      'sm': '300px',
+      // => @media (min-width: 300px) { ... }
 
-      'md': '768px',
-      // => @media (min-width: 768px) { ... }
+      'md': '700px',
+      // => @media (min-width: 700px) { ... }
 
-      'lg': '1024px',
-      // => @media (min-width: 1024px) { ... }
+      'lg': '1000px',
+      // => @media (min-width: 1000px) { ... }
 
       'xl': '1280px',
       // => @media (min-width: 1280px) { ... }

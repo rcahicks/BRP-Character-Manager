@@ -13,10 +13,10 @@
             <h1 class="text-4xl text-of-black">SITE TITLE</h1>
         </header>
         <!-- intro and main character creation buttons are here -->
-        <main class="flex h-[80vh] w-full flex-col flex-nowrap lg:flex-row">
+        <main class="flex lg:h-[80vh] w-full flex-nowrap sm:flex-col lg:flex-row">
             <!-- intro to site -->
             <section
-                class="flex min-h-[60vh] w-full flex-col items-center justify-center bg-gradient-to-bl from-[#917ace] to-[#74b7d6] p-10 pt-20 lg:h-full lg:w-1/2">
+                class="flex flex-col items-center justify-center bg-gradient-to-bl from-[#917ace] to-[#74b7d6] p-10 h-full sm:w-full lg:w-1/2">
                 <h1 class="mb-4 text-2xl font-bold">
                     Welcome to XXX, a BRP Game Manager
                 </h1>
@@ -37,7 +37,7 @@
             </section>
             <!-- character creation buttons -->
             <section
-                class="flex min-h-[60vh] w-full flex-col items-center justify-center bg-of-black lg:h-full lg:w-1/2">
+                class="flex flex-col items-center justify-center bg-of-black sm:h-[60vh] lg:h-full sm:w-full lg:w-1/2">
                 <button
                     class="my-2 rounded-md bg-[#af9aea] p-4 text-lg font-bold text-of-black hover:bg-[#bba7f2]">
                     Load a Character
@@ -54,9 +54,26 @@
         </main>
         <!-- this is where I'll put GM tools eventually -->
         <section
-            class="flex w-full flex-col flex-nowrap bg-gm-tools bg-center md:flex-row lg:h-[60vh]">
+            class="flex w-full sm:h-[160vh] lg:h-[60vh] flex-nowrap bg-gm-tools bg-center sm:flex-col lg:flex-row">
             <section
-                class="flex h-full w-full items-center justify-center lg:w-1/3">
+                class="flex h-full items-center justify-center sm:w-full lg:w-1/3">
+                <section
+                    class="flex h-4/5 w-4/5 flex-col flex-nowrap items-center justify-evenly rounded bg-of-white p-6">
+                    <h2 class="text-xl font-bold text-of-black">title</h2>
+                    <p class="indent-8 text-of-black">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Illum ab accusantium libero iusto ipsa sunt iste
+                        rem, autem sed hic maiores aspernatur ducimus iure, ea
+                        ipsam in corrupti deleniti nemo.
+                    </p>
+                    <button
+                        class="rounded-md bg-of-black sm:px-10 sm:py-2 px-12 py-4 font-bold text-of-white hover:bg-[#af9aea] hover:text-of-black">
+                        click
+                    </button>
+                </section>
+            </section>
+            <section
+                class="flex h-full items-center justify-center sm:w-full lg:w-1/3">
                 <section
                     class="flex h-4/5 w-4/5 flex-col flex-nowrap items-center justify-evenly rounded bg-of-white p-6">
                     <h2 class="text-xl font-bold text-of-black">title</h2>
@@ -73,24 +90,7 @@
                 </section>
             </section>
             <section
-                class="flex h-full w-full items-center justify-center lg:w-1/3">
-                <section
-                    class="flex h-4/5 w-4/5 flex-col flex-nowrap items-center justify-evenly rounded bg-of-white p-6">
-                    <h2 class="text-xl font-bold text-of-black">title</h2>
-                    <p class="indent-8 text-of-black">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing
-                        elit. Illum ab accusantium libero iusto ipsa sunt iste
-                        rem, autem sed hic maiores aspernatur ducimus iure, ea
-                        ipsam in corrupti deleniti nemo.
-                    </p>
-                    <button
-                        class="rounded-md bg-of-black px-12 py-4 font-bold text-of-white hover:bg-[#af9aea] hover:text-of-black">
-                        click
-                    </button>
-                </section>
-            </section>
-            <section
-                class="flex h-full w-full items-center justify-center lg:w-1/3">
+                class="flex h-full items-center justify-center sm:w-full lg:w-1/3">
                 <section
                     class="flex h-4/5 w-4/5 flex-col flex-nowrap items-center justify-evenly rounded bg-of-white p-6">
                     <h2 class="text-xl font-bold text-of-black">title</h2>
