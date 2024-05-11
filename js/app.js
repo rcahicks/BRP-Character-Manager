@@ -5,7 +5,7 @@ class Character {
         this.culture = culture;
         this.handedness = handedness;
         this.height = height;
-        this.wegiht = weight;
+        this.weight = weight;
         this.profession = profession;
         this.wealth = wealth;
         this.godsReligion = godsReligion;
@@ -90,6 +90,7 @@ class Skills {
             }
         }
     }
+    getLanguage() {}
 }
 
 class Dice {
